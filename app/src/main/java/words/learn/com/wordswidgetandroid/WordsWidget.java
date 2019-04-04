@@ -16,10 +16,10 @@ public class WordsWidget extends AppWidgetProvider {
 
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
-        views.setTextViewText(R.id.key1, "key1x");
-        views.setTextViewText(R.id.key2, "key2x");
-        views.setTextViewText(R.id.value1, "value1x");
-        views.setTextViewText(R.id.value2, "value2x");
+        views.setTextViewText(R.id.key1, "apple");
+        views.setTextViewText(R.id.key2, "immerse");
+        views.setTextViewText(R.id.value1, "سیب");
+        views.setTextViewText(R.id.value2, "غرق شدن");
 
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget(appWidgetId, views);

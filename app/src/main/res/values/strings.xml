@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WordsWidgetAndroid</string>
+    <string name="app_name">Words Widget</string>
     <string name="action_settings">Settings</string>
     <string name="word">Word</string>
     <string name="meaning">Meaning</string>
@@ -8,4 +8,5 @@
     <string name="appwidget_text">Words</string>
     <string name="add_widget">Add widget</string>
     <string name="empty_string" > </string>
+    <string name="colon">:</string>
 </resources>
