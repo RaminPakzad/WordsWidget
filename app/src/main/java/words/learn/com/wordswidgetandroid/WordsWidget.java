@@ -13,12 +13,13 @@ public class WordsWidget extends AppWidgetProvider {
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {
 
-
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
+
         views.setTextViewText(R.id.key1, "apple");
-        views.setTextViewText(R.id.key2, "immerse");
         views.setTextViewText(R.id.value1, "سیب");
+
+        views.setTextViewText(R.id.key2, "immerse");
         views.setTextViewText(R.id.value2, "غرق شدن");
 
         // Instruct the widget manager to update the widget
